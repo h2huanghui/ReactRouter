@@ -1,6 +1,6 @@
-## 安装react-router
+## 1. 安装react-router
 `npm i --save react-router-dom`
-## 路由精确匹配 exact
+## 2. 路由精确匹配 exact
 ```
    <Router>
         <ul>
@@ -11,3 +11,5 @@
         <Route path='/list/' component={List}/>
     </Router>
 ```
+
+## 3. 页面分离

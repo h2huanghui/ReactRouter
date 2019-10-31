@@ -1,17 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-
-const Index = () => {
-    return (
-        <h2>huanghui.com</h2>
-    )
-}
-
-const List = () => {
-    return (
-        <h2>List-page</h2>
-    )
-}
+import Home from './pages/Home'
+import List from './pages/List'
 
 const AppRouter = () => {
     return (
@@ -20,7 +10,7 @@ const AppRouter = () => {
                 <li><Link to='/'>首页</Link></li>
                 <li><Link to='/list/'>列表</Link></li>
             </ul>
-            <Route path='/' exact component={Index}/>
+            <Route path='/' exact component={Home}/>
             <Route path='/list/' component={List}/>
         </Router>
     )
