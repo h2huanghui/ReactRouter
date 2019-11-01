@@ -8,8 +8,8 @@ const AppRouter = () => {
     return (
         <Router>
             <ul>
-                <li><Link to='/'>首页</Link></li>
-                <li><Link to='/list/123'>列表</Link></li>
+                <li><Link to='/'>??</Link></li>
+                <li><Link to='/list/123'>??</Link></li>
             </ul>
             <Route path='/' exact component={Home}/>
             <Route path='/list/:id' component={List} />
