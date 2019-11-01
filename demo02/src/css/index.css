@@ -27,6 +27,6 @@ body {
     padding: 10px;
     list-style: none;
 }
-.videoContent {
+.videoContent, .careerContent {
     padding: 20px;
 }
