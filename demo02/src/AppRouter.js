@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Index from './Pages/Index'
 import Video from './Pages/Video'
+import Career from './Pages/Career'
 import './css/index.css'
 
 const AppRouter = () => {
@@ -19,6 +20,7 @@ const AppRouter = () => {
                 <div className='rightMain'>
                     <Route path='/' exact component={Index} />
                     <Route path='/video/' component={Video} />
+                    <Route path='/career/' component={Career} />
                 </div>
             </div>
         </Router>
